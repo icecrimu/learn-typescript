@@ -13,3 +13,22 @@ let employee = [
     [1, "Charles"],
     [2, "Gemuel"]
 ];
+// Union
+let pid;
+pid = "hi";
+pid = 19;
+// Enum
+var Direction1;
+(function (Direction1) {
+    Direction1[Direction1["Up"] = 0] = "Up";
+    Direction1[Direction1["Down"] = 1] = "Down";
+    Direction1[Direction1["Left"] = 2] = "Left";
+    Direction1[Direction1["Right"] = 3] = "Right"; // 3
+})(Direction1 || (Direction1 = {}));
+var Direction2;
+(function (Direction2) {
+    Direction2["Up"] = "Up";
+    Direction2["Down"] = "Down";
+    Direction2["Left"] = "Left";
+    Direction2["Right"] = "Right";
+})(Direction2 || (Direction2 = {}));
