@@ -54,3 +54,5 @@ const user1 = {
     id: 1,
     name: "Charles"
 };
+// Cannot assign to 'id' because it is a read-only
+// user1.id = 5

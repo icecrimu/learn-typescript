@@ -77,11 +77,15 @@ log("Keep it up!")
 
 // Interfaces
 interface UserInterface {
-  id: number
+  readonly id: number
   name: string
+  age?: number
 }
 
 const user1: UserInterface = {
   id: 1,
   name: "Charles"
 }
+
+// Cannot assign to 'id' because it is a read-only
+// user1.id = 5
