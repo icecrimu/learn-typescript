@@ -35,3 +35,23 @@ enum Direction2 {
   Left = "Left",
   Right = "Right"
 }
+
+// Objects
+
+// const user: {
+//   id: number
+//   name: string
+// } = {
+//   id: 1,
+//   name: "Charles"
+// }
+
+type User = {
+  id: number
+  name: string
+}
+
+const user: User = {
+  id: 2,
+  name: "Charles"
+}
