@@ -66,4 +66,14 @@ class Person {
 const charles = new Person(1, "Charles ");
 const john = new Person(2, "John");
 console.log(charles, john);
-// charles.id = 3
+class Person2 {
+    constructor(id, name) {
+        this.id = id;
+        this.name = name;
+    }
+    register() {
+        return "1";
+    }
+}
+const joe = new Person2(2, "Joe");
+console.log(joe.register());

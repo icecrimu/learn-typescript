@@ -116,3 +116,32 @@ const john = new Person(2, "John")
 console.log(charles, john)
 
 // charles.id = 3
+
+// private
+// protected
+// public
+
+// Implement Interface in class
+interface PersonInterface {
+  id: number
+  name: string
+  register(): string
+}
+
+class Person2 implements PersonInterface {
+  id: number
+  name: string
+
+  constructor(id: number, name: string) {
+    this.id = id
+    this.name = name
+  }
+
+  register() {
+    return "1"
+  }
+}
+
+const joe = new Person2(2, "Joe")
+
+console.log(joe.register())
