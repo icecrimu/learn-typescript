@@ -61,3 +61,16 @@ let cid: any = 1
 // let customerId = <number>cid
 let customerId = cid as number
 customerId = 23
+
+// Functions
+function addNum(x: number, y: number): number {
+  return x + y
+}
+
+// console.log(addNum(1, 2))
+
+function log(message: string | number): void {
+  console.log(message)
+}
+
+log("Keep it up!")

@@ -41,3 +41,12 @@ let cid = 1;
 // let customerId = <number>cid
 let customerId = cid;
 customerId = 23;
+// Functions
+function addNum(x, y) {
+    return x + y;
+}
+// console.log(addNum(1, 2))
+function log(message) {
+    console.log(message);
+}
+log("Keep it up!");
