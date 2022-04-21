@@ -77,3 +77,11 @@ class Person2 {
 }
 const joe = new Person2(2, "Joe");
 console.log(joe.register());
+// Extending Classes (Subclasses)
+class Employee extends Person2 {
+    constructor(id, name, position) {
+        super(id, name);
+        this.position = position;
+    }
+}
+const emp = new Employee(3, "Jana", "Developer");
