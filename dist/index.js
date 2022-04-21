@@ -50,3 +50,7 @@ function log(message) {
     console.log(message);
 }
 log("Keep it up!");
+const user1 = {
+    id: 1,
+    name: "Charles"
+};

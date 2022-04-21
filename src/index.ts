@@ -74,3 +74,14 @@ function log(message: string | number): void {
 }
 
 log("Keep it up!")
+
+// Interfaces
+interface UserInterface {
+  id: number
+  name: string
+}
+
+const user1: UserInterface = {
+  id: 1,
+  name: "Charles"
+}
