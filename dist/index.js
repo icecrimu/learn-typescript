@@ -66,3 +66,4 @@ class Person {
 const charles = new Person(1, "Charles ");
 const john = new Person(2, "John");
 console.log(charles, john);
+// charles.id = 3

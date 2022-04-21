@@ -101,7 +101,7 @@ const sub: MathFunc = (x: number, y: number) => x - y
 
 // Classes
 class Person {
-  id: number
+  private id: number
   name: string
 
   constructor(id: number, name: string) {
@@ -114,3 +114,5 @@ const charles = new Person(1, "Charles ")
 const john = new Person(2, "John")
 
 console.log(charles, john)
+
+// charles.id = 3
